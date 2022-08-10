@@ -11,7 +11,18 @@
   justify-content: center;
   align-items: center;
 }
-
+.main input {
+  width: 10rem;
+  height: 2rem;
+}
+.main select {
+  width: 10rem;
+  height: 2rem;
+}
+.main textarea {
+  width: 20rem;
+  height: 10rem;
+}
 .footer {
   display: flex;
   flex: 1;
@@ -72,6 +83,14 @@
   flex-wrap: wrap;
   max-width: 800px;
 }
+.grid button {
+  width: 5rem;
+  height: 2rem;
+}
+
+.grid div {
+  margin-bottom:0.5rem;
+}
 
 .card {
   margin: 1rem;
@@ -82,7 +101,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 600px;
 }
 
 .card:hover,

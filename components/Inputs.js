@@ -2,9 +2,9 @@ import React, {useState} from 'react'
 import styles from '../styles/Home.module.css'
 
 export const timeLimitOptions = [
-    { label: '1 minute', value: 60 },
-    { label: '2 minutes', value: 120 },
-    { label: '5 minutes', value: 300 },
+    { label: '60', value: 60 },
+    { label: '120', value: 120 },
+    { label: '300', value: 300 },
     { label: 'Other', value: -1 },
 ]
 

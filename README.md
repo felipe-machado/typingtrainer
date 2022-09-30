@@ -24,5 +24,6 @@ Challenge your peers and discover who is the Typing Master!
 
 ## Tests
 ```bash
+npm init playwright@latest
 npx playwright test
 ```
